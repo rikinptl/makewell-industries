@@ -34,7 +34,7 @@ export default function Home() {
             </p>
           </FadeIn>
           <div className="mt-12">
-            <ProductFilterGrid products={products} />
+            <ProductFilterGrid products={products} variant="featured" />
           </div>
         </div>
       </section>

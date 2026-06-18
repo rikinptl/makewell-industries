@@ -182,20 +182,14 @@ export function FaqChatbot() {
         )}
       </AnimatePresence>
 
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        className={`fixed bottom-[5.25rem] right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg transition-transform hover:scale-105 lg:bottom-24 lg:right-8 ${
-          open ? "bg-charcoal text-white" : "bg-brand text-white"
-        }`}
-        aria-label={open ? "Close FAQ chat" : "Open FAQ chat"}
-        aria-expanded={open}
-      >
-        {open ? (
-          <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
-        ) : (
+      {!open && (
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          className="fixed bottom-[5.25rem] right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-105 lg:bottom-24 lg:right-8"
+          aria-label="Open FAQ chat"
+          aria-expanded={false}
+        >
           <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path
               strokeLinecap="round"
@@ -204,8 +198,8 @@ export function FaqChatbot() {
               d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
             />
           </svg>
-        )}
-      </button>
+        </button>
+      )}
     </>
   );
 }

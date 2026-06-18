@@ -10,7 +10,14 @@ import { useIsMobile } from "@/hooks/useIsMobile";
 
 type Filter = "all" | string;
 
-export function ProductFilterGrid({ products }: { products: Product[] }) {
+export function ProductFilterGrid({
+  products,
+  variant = "catalog",
+}: {
+  products: Product[];
+  /** Homepage: swipeable featured picks on mobile. Catalog: full list everywhere. */
+  variant?: "featured" | "catalog";
+}) {
   const [filter, setFilter] = useState<Filter>("all");
   const isMobile = useIsMobile();
   const featured = getFeaturedProducts();
@@ -20,7 +27,7 @@ export function ProductFilterGrid({ products }: { products: Product[] }) {
       ? products
       : products.filter((p) => p.categories.includes(filter));
 
-  if (isMobile) {
+  if (variant === "featured" && isMobile) {
     return <FeaturedProductsStrip products={featured} />;
   }
 
