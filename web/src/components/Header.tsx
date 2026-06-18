@@ -17,11 +17,17 @@ const mainLinks = [
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const [productOpen, setProductOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [activeCategory, setActiveCategory] = useState<CategorySlug>(categories[0].slug);
 
   const activeProducts = getProductsByCategory(activeCategory);
+
+  function closeMobileMenu() {
+    setMobileOpen(false);
+    setMobileProductsOpen(false);
+  }
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -155,7 +161,12 @@ export function Header() {
           </Link>
           <button
             type="button"
-            onClick={() => setMobileOpen(!mobileOpen)}
+            onClick={() => {
+              setMobileOpen((open) => {
+                if (open) setMobileProductsOpen(false);
+                return !open;
+              });
+            }}
             className="rounded-lg p-2 lg:hidden"
             aria-label="Menu"
           >
@@ -182,48 +193,88 @@ export function Header() {
             <nav className="max-h-[70vh] overflow-y-auto px-4 py-4">
               <Link
                 href="/contact#quote"
-                onClick={() => setMobileOpen(false)}
+                onClick={closeMobileMenu}
                 className="btn-primary mb-4 w-full py-3.5 text-center text-sm"
               >
                 Get Quote
               </Link>
-              {mainLinks.map((link) => (
+
+              <Link
+                href="/"
+                onClick={closeMobileMenu}
+                className="block rounded-xl px-4 py-3 text-sm font-medium text-foreground hover:bg-stone"
+              >
+                Home
+              </Link>
+              <Link
+                href="/about"
+                onClick={closeMobileMenu}
+                className="block rounded-xl px-4 py-3 text-sm font-medium text-foreground hover:bg-stone"
+              >
+                About us
+              </Link>
+
+              <div className="rounded-xl">
+                <button
+                  type="button"
+                  onClick={() => setMobileProductsOpen((v) => !v)}
+                  className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-medium text-foreground hover:bg-stone"
+                  aria-expanded={mobileProductsOpen}
+                >
+                  Products
+                  <svg
+                    className={`h-4 w-4 text-muted transition-transform duration-200 ${
+                      mobileProductsOpen ? "rotate-180" : ""
+                    }`}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <AnimatePresence initial={false}>
+                  {mobileProductsOpen && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+                      className="overflow-hidden"
+                    >
+                      <div className="space-y-0.5 pb-2 pl-2">
+                        <Link
+                          href="/products"
+                          onClick={closeMobileMenu}
+                          className="block rounded-lg px-4 py-2.5 text-sm font-semibold text-brand hover:bg-brand-light/50"
+                        >
+                          View all products
+                        </Link>
+                        {categories.map((cat) => (
+                          <Link
+                            key={cat.slug}
+                            href={`/${cat.slug}`}
+                            onClick={closeMobileMenu}
+                            className="block rounded-lg px-4 py-2.5 text-sm text-muted hover:bg-stone hover:text-foreground"
+                          >
+                            {cat.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {mainLinks.slice(2).map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  onClick={() => setMobileOpen(false)}
+                  onClick={closeMobileMenu}
                   className="block rounded-xl px-4 py-3 text-sm font-medium text-foreground hover:bg-stone"
                 >
                   {link.label}
                 </Link>
-              ))}
-              <Link
-                href="/products"
-                onClick={() => setMobileOpen(false)}
-                className="block rounded-xl px-4 py-3 text-sm font-medium text-foreground hover:bg-stone"
-              >
-                Products
-              </Link>
-              {categories.map((cat) => (
-                <div key={cat.slug} className="pl-2">
-                  <Link
-                    href={`/${cat.slug}`}
-                    onClick={() => setMobileOpen(false)}
-                    className="block rounded-xl px-4 py-2 text-sm font-semibold text-foreground"
-                  >
-                    {cat.name}
-                  </Link>
-                  {getProductsByCategory(cat.slug).map((p) => (
-                    <Link
-                      key={p.slug}
-                      href={`/products/${p.slug}`}
-                      onClick={() => setMobileOpen(false)}
-                      className="block rounded-xl px-4 py-2 pl-6 text-sm text-muted hover:text-foreground"
-                    >
-                      {p.shortName}
-                    </Link>
-                  ))}
-                </div>
               ))}
             </nav>
           </motion.div>
