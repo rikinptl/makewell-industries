@@ -14,8 +14,10 @@ export function FeaturesGrid() {
         <Stagger className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature) => (
             <StaggerItem key={feature.title}>
-              <div className="h-full rounded-2xl border border-border bg-background p-8 transition-shadow duration-500 hover:shadow-lg">
-                <span className="text-2xl">{feature.icon}</span>
+              <div className="h-full rounded-2xl border border-border bg-background p-8 transition-all duration-500 hover:border-brand/25 hover:shadow-[0_8px_30px_rgba(4,89,165,0.08)]">
+                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-light text-xl">
+                  {feature.icon}
+                </span>
                 <h3 className="mt-5 text-lg font-semibold text-foreground">{feature.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{feature.description}</p>
               </div>

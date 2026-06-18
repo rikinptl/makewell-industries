@@ -3,6 +3,7 @@ import { DM_Sans, Syne } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { MobileActionBar, StickySidebar, WhatsAppFloat } from "@/components/StickySidebar";
+import { FaqChatbot } from "@/components/FaqChatbot";
 import { company } from "@/lib/site";
 import { getSiteUrl } from "@/lib/site-url";
 import "./globals.css";
@@ -62,6 +63,7 @@ export default function RootLayout({
         <Footer />
         <StickySidebar />
         <MobileActionBar />
+        <FaqChatbot />
         <WhatsAppFloat />
       </body>
     </html>

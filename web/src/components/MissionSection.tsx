@@ -37,7 +37,7 @@ export function MissionSection() {
               </p>
             </FadeIn>
             <FadeIn delay={0.25}>
-              <div className="mt-10 space-y-5 border-l border-border pl-6">
+              <div className="mt-10 space-y-5 border-l-2 border-brand/35 pl-6">
                 {[
                   "Ethics — We do what's right, always.",
                   "Transparency — Clear communication at every level.",
@@ -50,7 +50,7 @@ export function MissionSection() {
               </div>
             </FadeIn>
           </div>
-          <FadeIn delay={0.2} direction={isMobile ? "up" : "left"}>
+          <FadeIn delay={0.2} direction={isMobile ? "up" : "left"} className="hidden lg:block">
             <div className="min-w-0 overflow-hidden rounded-2xl lg:rounded-3xl">
               <motion.div style={{ y: imageY }}>
                 <Image

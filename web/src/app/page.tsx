@@ -19,11 +19,18 @@ export default function Home() {
           <FadeIn>
             <p className="label-caps mb-4">Our range</p>
             <h2 className="heading-display-md text-foreground">
-              Explore our products
+              <span className="md:hidden">Featured machines</span>
+              <span className="hidden md:inline">Explore our products</span>
             </h2>
             <p className="mt-4 max-w-xl text-muted">
-              All {products.length} machines — hydraulic hot press and woodworking
-              solutions engineered in Ahmedabad since 1993.
+              <span className="md:hidden">
+                A curated look at our hydraulic and woodworking line — swipe through,
+                then browse the full catalogue.
+              </span>
+              <span className="hidden md:inline">
+                All {products.length} machines — hydraulic hot press and woodworking
+                solutions engineered in Ahmedabad since 1993.
+              </span>
             </p>
           </FadeIn>
           <div className="mt-12">

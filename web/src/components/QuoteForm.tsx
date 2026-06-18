@@ -18,13 +18,13 @@ export function QuoteForm({ id }: { id?: string }) {
             key={placeholder}
             type={placeholder.includes("Email") ? "email" : placeholder.includes("Phone") ? "tel" : "text"}
             placeholder={placeholder}
-            className="w-full rounded-xl border border-border bg-background px-4 py-3.5 text-sm outline-none transition-colors focus:border-charcoal"
+            className="w-full rounded-xl border border-border bg-background px-4 py-3.5 text-sm outline-none transition-colors focus:border-brand"
           />
         ))}
         <textarea
           placeholder="Describe your requirement"
           rows={3}
-          className="w-full resize-none rounded-xl border border-border bg-background px-4 py-3.5 text-sm outline-none transition-colors focus:border-charcoal"
+          className="w-full resize-none rounded-xl border border-border bg-background px-4 py-3.5 text-sm outline-none transition-colors focus:border-brand"
         />
         <button type="submit" className="btn-primary w-full py-4 text-sm">
           Send inquiry

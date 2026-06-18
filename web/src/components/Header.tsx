@@ -64,7 +64,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted transition-colors hover:text-brand"
             >
               {link.label}
             </Link>
@@ -139,7 +139,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted transition-colors hover:text-brand"
             >
               {link.label}
             </Link>

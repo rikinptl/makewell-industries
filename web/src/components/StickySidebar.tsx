@@ -12,7 +12,7 @@ export function MobileActionBar() {
         href="/contact#quote"
         className="flex flex-col items-center justify-center gap-1 py-3 text-[10px] font-semibold tracking-wide text-foreground uppercase"
       >
-        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-charcoal text-white">
+        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand text-white">
           <svg className="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 20 20">
             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -54,7 +54,7 @@ export function StickySidebar() {
       <Link
         href="/contact#quote"
         title="Send Inquiry"
-        className="flex h-11 w-11 items-center justify-center bg-charcoal text-white transition-transform hover:scale-105"
+        className="flex h-11 w-11 items-center justify-center bg-brand text-white transition-transform hover:scale-105"
       >
         <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
           <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />

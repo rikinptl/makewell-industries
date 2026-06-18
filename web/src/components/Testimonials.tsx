@@ -19,7 +19,7 @@ export function Testimonials() {
               direction="none"
               className="w-[85vw] max-w-[340px] flex-shrink-0 sm:w-[320px] lg:w-[380px]"
             >
-              <article className="h-full rounded-2xl border border-border bg-surface p-6 sm:p-8">
+              <article className={`h-full rounded-2xl border border-border p-6 sm:p-8 ${item.bg}`}>
                 <p className="text-sm font-medium leading-relaxed text-foreground sm:text-base">
                   &ldquo;{item.quote}&rdquo;
                 </p>

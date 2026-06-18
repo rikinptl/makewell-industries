@@ -28,7 +28,7 @@ export function Hero() {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-[100svh] overflow-x-clip bg-background pt-24 pb-8 lg:pt-32"
+      className="relative min-h-[100svh] overflow-x-clip hero-mesh pt-24 pb-8 lg:pt-32"
     >
       <div className="page-container px-4 sm:px-6 lg:px-8">
         <motion.div style={{ opacity: textOpacity, y: textY }} className="text-center">
@@ -39,7 +39,7 @@ export function Hero() {
             <h1 className="heading-display mx-auto max-w-5xl text-foreground">
               <span className="block">Pressing for</span>
               <span className="block">every factory,</span>
-              <span className="block">every industry</span>
+              <span className="block text-brand">every industry</span>
             </h1>
           </FadeIn>
           <FadeIn delay={0.35}>
@@ -59,18 +59,28 @@ export function Hero() {
           </FadeIn>
         </motion.div>
 
-        <div className="relative mx-auto mt-14 w-full max-w-5xl overflow-hidden sm:mt-20">
+        <div className="relative mx-auto mt-10 w-full max-w-5xl overflow-hidden sm:mt-20">
           <motion.div
             style={{ y: imageY, scale: imageScale }}
-            className="relative w-full overflow-hidden rounded-2xl bg-charcoal sm:rounded-3xl"
+            className="relative w-full overflow-hidden rounded-xl bg-charcoal sm:rounded-3xl"
           >
-            <div className="absolute inset-0 z-10 bg-gradient-to-t from-charcoal/40 via-transparent to-transparent" />
+            <div className="absolute inset-0 z-10 bg-gradient-to-t from-charcoal/50 via-transparent to-transparent sm:from-charcoal/40" />
+            <div className="relative aspect-[2.4/1] w-full sm:hidden">
+              <Image
+                src={`${IMG}/homepage/banner/makewell-b1.webp`}
+                alt="Makewell hydraulic press machine"
+                fill
+                sizes="100vw"
+                className="object-cover object-center"
+                priority
+              />
+            </div>
             <Image
               src={`${IMG}/homepage/banner/makewell-b1.webp`}
               alt="Makewell hydraulic press machine"
               width={1400}
               height={788}
-              className="h-auto w-full max-w-full object-cover"
+              className="hidden h-auto w-full max-w-full object-cover sm:block"
               priority
             />
           </motion.div>
@@ -78,7 +88,7 @@ export function Hero() {
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 1 }}
             transition={{ delay: 0.8, duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-            className="mx-auto mt-8 h-px w-full max-w-xs origin-center bg-border"
+            className="mx-auto mt-8 h-0.5 w-full max-w-xs origin-center bg-gradient-to-r from-transparent via-brand to-transparent"
           />
         </div>
       </div>

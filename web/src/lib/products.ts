@@ -47,3 +47,19 @@ export function getCategoryBySlug(slug: string) {
 export function getAllProductSlugs(): string[] {
   return products.map((p) => p.slug);
 }
+
+/** Curated homepage picks — one hero machine per category plus standout models */
+export const featuredProductSlugs = [
+  "plywood-block-board-flush-door-hot-press-machine",
+  "cold-press-machine",
+  "auto-edge-banding-machine",
+  "cnc-router-machine",
+  "fiberglass-hot-press",
+  "panel-saw",
+] as const;
+
+export function getFeaturedProducts(): Product[] {
+  return featuredProductSlugs
+    .map((slug) => getProductBySlug(slug))
+    .filter((p): p is Product => Boolean(p));
+}

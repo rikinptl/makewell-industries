@@ -17,9 +17,13 @@ export function TrustSection() {
 
   return (
     <section ref={ref} className="relative overflow-hidden bg-charcoal section-pad">
+      <div
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(4,89,165,0.35),transparent_60%)]"
+        aria-hidden
+      />
       <motion.div
         style={{ y: bgY }}
-        className="pointer-events-none absolute inset-0 opacity-[0.03]"
+        className="pointer-events-none absolute inset-0 opacity-[0.04]"
         aria-hidden
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,white,transparent_50%)]" />
@@ -37,7 +41,7 @@ export function TrustSection() {
                 <p className="text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl">
                   {stat.value}
                 </p>
-                <p className="mt-2 text-xs font-medium tracking-widest text-white/50 uppercase">
+                <p className="mt-2 text-xs font-medium tracking-widest text-brand-light/80 uppercase">
                   {stat.label}
                 </p>
               </div>

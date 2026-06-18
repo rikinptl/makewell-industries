@@ -11,10 +11,14 @@ export function PageHero({
   crumbs: Crumb[];
 }) {
   return (
-    <section className="border-b border-border bg-charcoal section-pad">
-      <div className="page-container">
+    <section className="relative overflow-hidden border-b border-brand/20 bg-charcoal section-pad">
+      <div
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(4,89,165,0.28),transparent_65%)]"
+        aria-hidden
+      />
+      <div className="page-container relative">
         <FadeIn>
-          <p className="label-caps mb-4">Makewell Industries</p>
+          <p className="label-caps mb-4 text-brand-light/70">Makewell Industries</p>
           <h1 className="heading-display-sm text-white">{title}</h1>
           <nav className="mt-6 flex flex-wrap items-center gap-2 text-sm text-white/50">
             {crumbs.map((crumb, i) => (

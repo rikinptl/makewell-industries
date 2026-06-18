@@ -5,7 +5,11 @@ import { company } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="bg-charcoal text-white">
+    <footer className="relative bg-charcoal text-white">
+      <div
+        className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/50 to-transparent"
+        aria-hidden
+      />
       <div className="border-b border-white/10 px-4 py-10 sm:px-6 lg:px-8">
         <div className="page-container flex flex-col items-center justify-between gap-6 sm:flex-row">
           <Image

@@ -2,19 +2,27 @@
 
 import { useState } from "react";
 import type { Product } from "@/lib/products";
-import { categories } from "@/lib/products";
+import { categories, getFeaturedProducts } from "@/lib/products";
+import { FeaturedProductsStrip } from "./FeaturedProductsStrip";
 import { ProductGrid } from "./ProductCard";
 import { FadeIn } from "@/components/motion/FadeIn";
+import { useIsMobile } from "@/hooks/useIsMobile";
 
 type Filter = "all" | string;
 
 export function ProductFilterGrid({ products }: { products: Product[] }) {
   const [filter, setFilter] = useState<Filter>("all");
+  const isMobile = useIsMobile();
+  const featured = getFeaturedProducts();
 
   const filtered =
     filter === "all"
       ? products
       : products.filter((p) => p.categories.includes(filter));
+
+  if (isMobile) {
+    return <FeaturedProductsStrip products={featured} />;
+  }
 
   return (
     <div className="w-full min-w-0 max-w-full overflow-x-clip">
@@ -53,8 +61,8 @@ function FilterButton({
       onClick={onClick}
       className={`rounded-full px-5 py-2.5 text-xs font-semibold tracking-wide uppercase transition-all duration-300 sm:text-sm ${
         active
-          ? "bg-charcoal text-white"
-          : "border border-border bg-surface text-muted hover:border-foreground/20 hover:text-foreground"
+          ? "bg-brand text-white shadow-[0_4px_14px_rgba(4,89,165,0.25)]"
+          : "border border-border bg-surface text-muted hover:border-brand/20 hover:text-foreground"
       }`}
     >
       {label}
