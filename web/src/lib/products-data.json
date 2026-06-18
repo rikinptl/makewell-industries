@@ -3,7 +3,7 @@
     "slug": "auto-edge-banding-machine",
     "name": "Auto Edge Banding Machine",
     "shortName": "Auto Edge Banding Machine",
-    "description": "",
+    "description": "Makewell Industries manufactures a complete range of auto edge banding machines — from compact models to high-capacity industrial lines including MEB 730 MPR, MEB 700 MPR, MEB 660, MEB 620 MPC, and more. Precision gluing, trimming, and finishing for modular furniture, kitchens, and panel manufacturing.",
     "categories": [
       "wood-working-machine"
     ],
@@ -18,7 +18,13 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/auto-edge-banding-machine/edge-bander-meb-370ms.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product//auto-edge-banding-machine/edge-bander-meb-245.webp"
     ],
-    "specs": []
+    "specs": [],
+    "features": [
+      "Full range of edge banders from entry-level to high-capacity MEB series",
+      "Automatic gluing, trimming, and finishing in one pass",
+      "Suitable for MDF, plywood, particle board, and laminated panels",
+      "Built for continuous industrial use in Indian factory conditions"
+    ]
   },
   {
     "slug": "beam-saw-machine",
@@ -32,44 +38,47 @@
     "images": [
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/wood-working-machine/beam-saw/beam-saw.webp"
     ],
-    "specs": [
-      {
-        "label": "Model No.",
-        "value": "MBS - 6228"
-      },
-      {
-        "label": "Maximum cutting length",
-        "value": "2800mm"
-      },
-      {
-        "label": "Maximum cutting thickness",
-        "value": "73mm"
-      },
-      {
-        "label": "Main saw rotation speed",
-        "value": "4800 RPM"
-      },
-      {
-        "label": "Scoring saw rotation speed",
-        "value": "6500 RPM"
-      },
-      {
-        "label": "Main saw motor",
-        "value": "11 kw"
-      },
-      {
-        "label": "Automatic feeding speed",
-        "value": "65 m/min"
-      },
-      {
-        "label": "Overall Dimension",
-        "value": "6200x5300x1750mm"
-      },
-      {
-        "label": "Power",
-        "value": "16.2 kw"
-      }
-    ]
+    "specs": [],
+    "specTable": {
+      "headers": [
+        "Model No.",
+        "MBS - 6228"
+      ],
+      "rows": [
+        [
+          "Maximum cutting length",
+          "2800mm"
+        ],
+        [
+          "Maximum cutting thickness",
+          "73mm"
+        ],
+        [
+          "Main saw rotation speed",
+          "4800 RPM"
+        ],
+        [
+          "Scoring saw rotation speed",
+          "6500 RPM"
+        ],
+        [
+          "Main saw motor",
+          "11 kw"
+        ],
+        [
+          "Automatic feeding speed",
+          "65 m/min"
+        ],
+        [
+          "Overall Dimension",
+          "6200x5300x1750mm"
+        ],
+        [
+          "Power",
+          "16.2 kw"
+        ]
+      ]
+    }
   },
   {
     "slug": "cnc-router-machine",
@@ -83,44 +92,47 @@
     "images": [
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/wood-working-machine/cnc-router/cnc-router.webp"
     ],
-    "specs": [
-      {
-        "label": "Attribute",
-        "value": "Specification"
-      },
-      {
-        "label": "Model No.",
-        "value": "MCR 2500"
-      },
-      {
-        "label": "X-Y-Z Axis Working Area",
-        "value": "1300 x 2500 x 200 mm"
-      },
-      {
-        "label": "Power of Spindle",
-        "value": "3.7 kW"
-      },
-      {
-        "label": "Maximum RPM",
-        "value": "18000 / min"
-      },
-      {
-        "label": "Drive Motor",
-        "value": "Stepper"
-      },
-      {
-        "label": "Control System",
-        "value": "DSP"
-      },
-      {
-        "label": "Command Code",
-        "value": "G Code"
-      },
-      {
-        "label": "Spindle",
-        "value": "Air Cooling (HSD Italy)"
-      }
-    ]
+    "specs": [],
+    "specTable": {
+      "headers": [
+        "Attribute",
+        "Specification"
+      ],
+      "rows": [
+        [
+          "Model No.",
+          "MCR 2500"
+        ],
+        [
+          "X-Y-Z Axis Working Area",
+          "1300 x 2500 x 200 mm"
+        ],
+        [
+          "Power of Spindle",
+          "3.7 kW"
+        ],
+        [
+          "Maximum RPM",
+          "18000 / min"
+        ],
+        [
+          "Drive Motor",
+          "Stepper"
+        ],
+        [
+          "Control System",
+          "DSP"
+        ],
+        [
+          "Command Code",
+          "G Code"
+        ],
+        [
+          "Spindle",
+          "Air Cooling (HSD Italy)"
+        ]
+      ]
+    }
   },
   {
     "slug": "cold-press-machine",
@@ -136,7 +148,20 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/cold-press/cold-press-1.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/cold-press/cold-press.webp"
     ],
-    "specs": []
+    "specs": [],
+    "features": [
+      "Capacity: 50 Ton / 100 Ton / 150 Ton",
+      "Usage/Application: Industrial (Woodworking)",
+      "Automation Grade: Automatic",
+      "Power Source: Hydraulic",
+      "Material: Mild Steel for durability and strength",
+      "Voltage: 440 V for efficient operation",
+      "Pressure: 50 Ton for optimal pressing force",
+      "Number of Cylinders: 2 for balanced performance",
+      "Product Type: Cold Press",
+      "Brand: Makewell",
+      "Country of Origin: Made in India"
+    ]
   },
   {
     "slug": "core-dry-press-machine",
@@ -152,13 +177,21 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/core-dry-press/core-dry-press-2.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/core-dry-press/core-dry-press.webp"
     ],
-    "specs": []
+    "specs": [],
+    "features": [
+      "PLC Controlled Electrical Panel for enhanced precision and ease of operation.",
+      "User-Friendly and Maintenance-Free design for minimal downtime and long-lasting performance.",
+      "Ensures Better Straitening & Drying of the core material for superior quality output.",
+      "Equal Lifting Equipment ensures uniform pressure distribution for consistent results.",
+      "Available in 15 to 24 Daylight Options to suit different production requirements.",
+      "Size Options Available: 8' x 4', 9' x 4', 11' x 4', and 13' x 4' for flexibility in production."
+    ]
   },
   {
     "slug": "edge-bander",
     "name": "Auto Edge Bander",
     "shortName": "Auto Edge Bander",
-    "description": "To become a leading force in engineering and project management, delivering exceptional results that exceed client expectations.",
+    "description": "Makewell auto edge banders deliver fully automatic edge banding for panel furniture production — consistent bonding, trimming, and finishing for modular kitchens, wardrobes, and industrial wood panel lines.",
     "categories": [
       "wood-working-machine"
     ],
@@ -170,40 +203,55 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/wood-working-machine/edge-bander/edge-bander-4.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/wood-working-machine/edge-bander/edge-bander.webp"
     ],
-    "specs": [
-      {
-        "label": "Model No.",
-        "value": "MW 5007 CR"
-      },
-      {
-        "label": "Panel length",
-        "value": "&ge; 150mm"
-      },
-      {
-        "label": "Panel width",
-        "value": "&ge; 60mm"
-      },
-      {
-        "label": "Panel thickness",
-        "value": "10 to 60mm"
-      },
-      {
-        "label": "Edge band width",
-        "value": "12 to 65mm"
-      },
-      {
-        "label": "Feeding speed",
-        "value": "15/18/23 m/min"
-      },
-      {
-        "label": "Total power",
-        "value": "13.04 kw"
-      },
-      {
-        "label": "Size (L x W x H)",
-        "value": "5880 x 950 x 1740 mm"
-      }
-    ]
+    "specs": [],
+    "features": [
+      "Fully automatic edge-banding operation",
+      "Supports wide range of panel thickness and sizes — flexible manufacturing",
+      "Consistent edge bonding, trimming & finishing",
+      "Heavy duty, industrial-grade build — tough & durable for factory use",
+      "Suitable for MDF / Plywood / Particle Board / Laminated Panels",
+      "Ideal for modular kitchens, wardrobes, office furniture, wood panel manufacturing",
+      "Trusted manufacturer with legacy in woodworking & industrial machines",
+      "Robust construction and heavy-duty power — built for continuous industrial use",
+      "Flexible specification accommodates wide variety of panels & projects",
+      "Based in India — convenient for clients across PAN India"
+    ],
+    "specTable": {
+      "headers": [
+        "Model No.",
+        "MW 5007 CR"
+      ],
+      "rows": [
+        [
+          "Panel length",
+          "≥ 150mm"
+        ],
+        [
+          "Panel width",
+          "≥ 60mm"
+        ],
+        [
+          "Panel thickness",
+          "10 to 60mm"
+        ],
+        [
+          "Edge band width",
+          "12 to 65mm"
+        ],
+        [
+          "Feeding speed",
+          "15/18/23 m/min"
+        ],
+        [
+          "Total power",
+          "13.04 kw"
+        ],
+        [
+          "Size (L x W x H)",
+          "5880 x 950 x 1740 mm"
+        ]
+      ]
+    }
   },
   {
     "slug": "electric-boiler-hot-press",
@@ -221,28 +269,49 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/electric-boiler-hot-press/electric-boiler-hot-press-4.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/electric-boiler-hot-press/electric-boiler-hot-press.webp"
     ],
-    "specs": [
-      {
-        "label": "Product (MM)",
-        "value": "Capacity (Tons)"
-      },
-      {
-        "label": "7' x 3'",
-        "value": "120"
-      },
-      {
-        "label": "8' x 4'",
-        "value": "120 /180"
-      },
-      {
-        "label": "9 \u00bc' x 4 \u00bc'",
-        "value": "320"
-      },
-      {
-        "label": "10' x 5'",
-        "value": "320"
-      }
-    ]
+    "specs": [],
+    "features": [
+      "Fabricated Structure From Tested Plates ensures durability and robustness.",
+      "Close Frame Construction for maximum rigidity in all directions, reducing deflection.",
+      "Precisely Welded & Machined for minimal deflection and long-lasting performance.",
+      "Uniform Thermal Conditions in All Daylights for consistent heating and efficient production.",
+      "Leak-Free Hydraulic Cylinders for smooth and reliable operation.",
+      "RAMS Hard Chrome Plated & Ground for micro-finish and accuracy, ensuring extended service life and durability."
+    ],
+    "specTable": {
+      "headers": [
+        "Product (MM)",
+        "Capacity (Tons)",
+        "Platen (MM)",
+        "Specific Pressure"
+      ],
+      "rows": [
+        [
+          "7' x 3'",
+          "120",
+          "1050 x 2290",
+          "12 KG/CM 2"
+        ],
+        [
+          "8' x 4'",
+          "120 /180",
+          "1350 x 2600",
+          "15  KG/CM 2"
+        ],
+        [
+          "9 ¼' x 4 ¼'",
+          "320",
+          "1425 x 2950",
+          "18 KG/CM 2"
+        ],
+        [
+          "10' x 5'",
+          "320",
+          "3150 x 1650",
+          "18 KG/CM 2"
+        ]
+      ]
+    }
   },
   {
     "slug": "fiberglass-hot-press",
@@ -256,20 +325,35 @@
     "images": [
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/fiberglass-hot-press/fiberglass-hot-press-1.webp"
     ],
-    "specs": [
-      {
-        "label": "Product (MM)",
-        "value": "Capacity (Tons)"
-      },
-      {
-        "label": "2440 x 1220",
-        "value": "1600"
-      },
-      {
-        "label": "2440 x 1220",
-        "value": "2000"
-      }
-    ]
+    "specs": [],
+    "features": [
+      "High Capacity: Available in up to 2000 Tons, ensuring sufficient pressure for large-scale fiberglass manufacturing.",
+      "Precision Engineering: Designed with high-quality platens and optimized heat distribution for uniform results.",
+      "Durable Construction: Built to withstand heavy-duty operations and provide long-lasting performance.",
+      "Customizable Specifications: Multiple platen sizes and pressure options to cater to various fiberglass production needs."
+    ],
+    "specTable": {
+      "headers": [
+        "Product (MM)",
+        "Capacity (Tons)",
+        "Platen (MM)",
+        "Specific Pressure"
+      ],
+      "rows": [
+        [
+          "2440 x 1220",
+          "1600",
+          "2590 x 1350 x 60",
+          "45 KG/CM 2"
+        ],
+        [
+          "2440 x 1220",
+          "2000",
+          "2590 x 1350 x 60",
+          "52 KG/CM 2"
+        ]
+      ]
+    }
   },
   {
     "slug": "hydraulic-press-for-hpl",
@@ -285,28 +369,48 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/hydraulic-press-for-hpl/hydraulic-press-for-hpl-2.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/hydraulic-press-for-hpl/hydraulic-press-for-hpl.webp"
     ],
-    "specs": [
-      {
-        "label": "Product (MM)",
-        "value": "Capacity (Tons)"
-      },
-      {
-        "label": "7' x 3'",
-        "value": "2000"
-      },
-      {
-        "label": "8' x 4'",
-        "value": "3000"
-      },
-      {
-        "label": "9 \u00bc' x 4 \u00bc'",
-        "value": "3700"
-      },
-      {
-        "label": "10' x 5'",
-        "value": "5000"
-      }
-    ]
+    "specs": [],
+    "features": [
+      "Window Frame Construction for enhanced durability and robust support.",
+      "Multi Daylight Openings that accommodate different laminate sizes and requirements.",
+      "Uniform Heat and Pressure Distribution ensuring consistent and high-quality lamination.",
+      "Hydraulic and Electrical Components of International Standards for superior performance and reliability.",
+      "Push Button / PLC-Based Controls for ease of operation and automation."
+    ],
+    "specTable": {
+      "headers": [
+        "Product (MM)",
+        "Capacity (Tons)",
+        "Platen (MM)",
+        "Specific Pressure"
+      ],
+      "rows": [
+        [
+          "7' x 3'",
+          "2000",
+          "1050 x 2290",
+          "100 KG/CM 2"
+        ],
+        [
+          "8' x 4'",
+          "3000",
+          "1350 x 2600",
+          "100 KG/CM 2"
+        ],
+        [
+          "9 ¼' x 4 ¼'",
+          "3700",
+          "1425 x 2950",
+          "100 KG/CM 2"
+        ],
+        [
+          "10' x 5'",
+          "5000",
+          "3150 x 1650",
+          "100 KG/CM 2"
+        ]
+      ]
+    }
   },
   {
     "slug": "hydraulic-press-for-waste-recycling-plastic-sheet",
@@ -322,13 +426,18 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/waste-recycling-plant/waste-recycling-plant-2.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/waste-recycling-plant/waste-recycling-plant.webp"
     ],
-    "specs": []
+    "specs": [],
+    "features": [
+      "Converts plastic waste into reusable sheets and products",
+      "Designed for paper mills and industrial plastic waste streams",
+      "Supports sustainable recycling with hydraulic pressing technology"
+    ]
   },
   {
     "slug": "metal-door-press-machine",
     "name": "Metal Door Press Machine",
     "shortName": "Metal Door Press Machine",
-    "description": "At Makewell Industries, we specialize in delivering industrial-grade machinery engineered for performance, durability, and efficiency. Our Metal Door Press Machine is purpose-built for manufacturers requiring fast, consistent, and high-pressure metal forming\u2014especially for MS and steel door panels. Backed by advanced hydraulic systems and a rugged design, this fully automatic press is optimized for high-output environments, ensuring seamless operation, energy savings, and low maintenance needs. It's the perfect fit for metal fabrication units that demand precision and speed without compromise.",
+    "description": "At Makewell Industries, we specialize in delivering industrial-grade machinery engineered for performance, durability, and efficiency. Our Metal Door Press Machine is purpose-built for manufacturers requiring fast, consistent, and high-pressure metal forming—especially for MS and steel door panels. Backed by advanced hydraulic systems and a rugged design, this fully automatic press is optimized for high-output environments, ensuring seamless operation, energy savings, and low maintenance needs. It's the perfect fit for metal fabrication units that demand precision and speed without compromise.",
     "categories": [
       "hydraulic-hot-press-machine"
     ],
@@ -339,68 +448,83 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/metal-door-press-machine/metal-door-press-machine-4.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/metal-door-press-machine/metal-door-press-machine.webp"
     ],
-    "specs": [
-      {
-        "label": "Specification",
-        "value": "Details"
-      },
-      {
-        "label": "Capacity",
-        "value": "100 Ton"
-      },
-      {
-        "label": "Automation Grade",
-        "value": "Fully Automatic"
-      },
-      {
-        "label": "Power Source",
-        "value": "3 Phase Electric Supply"
-      },
-      {
-        "label": "Material",
-        "value": "Mild Steel (MS)"
-      },
-      {
-        "label": "Operating Voltage",
-        "value": "214 V"
-      },
-      {
-        "label": "Hydraulic Pressure",
-        "value": "120 Kgs/cm\u00b2"
-      },
-      {
-        "label": "Machine Weight",
-        "value": "11 Ton"
-      },
-      {
-        "label": "Platen Size",
-        "value": "(L x W x T) 1300 x 2500 x 40 mm"
-      },
-      {
-        "label": "Motor Power",
-        "value": "7.5 HP"
-      },
-      {
-        "label": "Cylinder Stroke",
-        "value": "350 mm"
-      },
-      {
-        "label": "Ram Stroke",
-        "value": "90 mm"
-      },
-      {
-        "label": "Hydraulic Cylinder Size",
-        "value": "95/160 mm (ID/OD)"
-      },
-      {
-        "label": "Number of Cylinders",
-        "value": "6"
-      },
-      {
-        "label": "Cycle Time (Speed)",
-        "value": "15 Seconds"
-      }
-    ]
+    "specs": [],
+    "features": [
+      "High-Capacity Performance: 100 Ton pressing power for superior metal door forming.",
+      "Fully Automatic Operation: Increases productivity with minimal manual intervention.",
+      "Durable Construction: Made from heavy-duty MS frame for long-term reliability.",
+      "Energy-Efficient Motor: 7.5HP motor ensures smooth operation with optimized power usage.",
+      "Precision Engineering: Accurate platen and cylinder alignment for consistent results.",
+      "Advanced Hydraulic System: Provides smooth, stable, and high-pressure operation.",
+      "Fast Cycle Time: 15-second press cycle to maximize throughput.",
+      "Large Working Area: 1300 x 2500 mm platen accommodates various door sizes.",
+      "Safety Integrated Design: Comes with necessary interlocks and protective systems.",
+      "Low Maintenance: Engineered for easy servicing and low downtime."
+    ],
+    "specTable": {
+      "headers": [
+        "Specification",
+        "Details"
+      ],
+      "rows": [
+        [
+          "Capacity",
+          "100 Ton"
+        ],
+        [
+          "Automation Grade",
+          "Fully Automatic"
+        ],
+        [
+          "Power Source",
+          "3 Phase Electric Supply"
+        ],
+        [
+          "Material",
+          "Mild Steel (MS)"
+        ],
+        [
+          "Operating Voltage",
+          "214 V"
+        ],
+        [
+          "Hydraulic Pressure",
+          "120 Kgs/cm²"
+        ],
+        [
+          "Machine Weight",
+          "11 Ton"
+        ],
+        [
+          "Platen Size",
+          "(L x W x T) 1300 x 2500 x 40 mm"
+        ],
+        [
+          "Motor Power",
+          "7.5 HP"
+        ],
+        [
+          "Cylinder Stroke",
+          "350 mm"
+        ],
+        [
+          "Ram Stroke",
+          "90 mm"
+        ],
+        [
+          "Hydraulic Cylinder Size",
+          "95/160 mm (ID/OD)"
+        ],
+        [
+          "Number of Cylinders",
+          "6"
+        ],
+        [
+          "Cycle Time (Speed)",
+          "15 Seconds"
+        ]
+      ]
+    }
   },
   {
     "slug": "multiboring-machine",
@@ -416,32 +540,35 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/wood-working-machine/multingboring/multingboring-2.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/wood-working-machine/multingboring/multingboring.webp"
     ],
-    "specs": [
-      {
-        "label": "Model No.",
-        "value": "MDH 2402"
-      },
-      {
-        "label": "Maximum size of work piece",
-        "value": "2000 x 640mm"
-      },
-      {
-        "label": "Distance between the bit",
-        "value": "32mm"
-      },
-      {
-        "label": "Number of spindle head",
-        "value": "Two"
-      },
-      {
-        "label": "working pressure",
-        "value": "6 Bar"
-      },
-      {
-        "label": "Total Power",
-        "value": "3 Kw"
-      }
-    ]
+    "specs": [],
+    "specTable": {
+      "headers": [
+        "Model No.",
+        "MDH 2402"
+      ],
+      "rows": [
+        [
+          "Maximum size of work piece",
+          "2000 x 640mm"
+        ],
+        [
+          "Distance between the bit",
+          "32mm"
+        ],
+        [
+          "Number of spindle head",
+          "Two"
+        ],
+        [
+          "working pressure",
+          "6 Bar"
+        ],
+        [
+          "Total Power",
+          "3 Kw"
+        ]
+      ]
+    }
   },
   {
     "slug": "panel-saw",
@@ -456,89 +583,123 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/wood-working-machine/panel-saw/panel-saw-1.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/wood-working-machine/panel-saw/panel-saw.webp"
     ],
-    "specs": [
-      {
-        "label": "Model No.",
-        "value": "MPS 3200"
-      },
-      {
-        "label": "Sliding Table Length",
-        "value": "3200 X 375 mm"
-      },
-      {
-        "label": "Main Saw Diameter",
-        "value": "300x30 mm"
-      },
-      {
-        "label": "Main Saw Blade Speed",
-        "value": "4000/6000/min"
-      },
-      {
-        "label": "Tilting of Saw Blade",
-        "value": "90\u00b0-45\u00b0"
-      },
-      {
-        "label": "Max. Cutting Depth at 90\u00b0",
-        "value": "100mm"
-      },
-      {
-        "label": "Max. Cutting Depth at 45\u00b0",
-        "value": "70 mm"
-      },
-      {
-        "label": "Motor For Main Saw Blade",
-        "value": "7.5 HP (5.5 kw)"
-      },
-      {
-        "label": "Max. Diameter of Scoring Blade",
-        "value": "120x20 mm"
-      },
-      {
-        "label": "Scoring Saw Speed",
-        "value": "8000/Min"
-      },
-      {
-        "label": "Max. Depth of Cutting of Scoring Blade",
-        "value": "5 mm"
-      },
-      {
-        "label": "Motor For Scoring Blade",
-        "value": "1 HP (0.75 kw)"
-      }
-    ]
+    "specs": [],
+    "specTable": {
+      "headers": [
+        "Model No.",
+        "MPS 3200",
+        "MPS 3200H"
+      ],
+      "rows": [
+        [
+          "Sliding Table Length",
+          "3200 X 375 mm",
+          "3200 X 415 mm"
+        ],
+        [
+          "Main Saw Diameter",
+          "300x30 mm",
+          "400x30 mm"
+        ],
+        [
+          "Main Saw Blade Speed",
+          "4000/6000/min",
+          "4000/6000/min"
+        ],
+        [
+          "Tilting of Saw Blade",
+          "90°-45°",
+          "90°-45°"
+        ],
+        [
+          "Max. Cutting Depth at 90°",
+          "100mm",
+          "125 mm"
+        ],
+        [
+          "Max. Cutting Depth at 45°",
+          "70 mm",
+          "85 mm"
+        ],
+        [
+          "Motor For Main Saw Blade",
+          "7.5 HP (5.5 kw)",
+          "7.5 HP (5.5 kw)"
+        ],
+        [
+          "Max. Diameter of Scoring Blade",
+          "120x20 mm",
+          "120x22 mm"
+        ],
+        [
+          "Scoring Saw Speed",
+          "8000/Min",
+          "8000/Min"
+        ],
+        [
+          "Max. Depth of Cutting of Scoring Blade",
+          "5 mm",
+          "5 mm"
+        ],
+        [
+          "Motor For Scoring Blade",
+          "1 HP (0.75 kw)",
+          "1 HP (0.75 kw)"
+        ]
+      ]
+    }
   },
   {
     "slug": "plywood-block-board-flush-door-hot-press-machine",
     "name": "Plywood Block Board Flush Door Hot Press Machine",
     "shortName": "Plywood Block Board Flush Door Hot Press Machine",
-    "description": "The Makewell Industries Stamp of Quality The Plywood \u2013 Blockboard Hydraulic Press Machine by Makewell Industries is designed to produce high-quality plywood and block boards used in furniture manufacturing, interior solutions, and more. Known for its precision, durability, and innovative design, our press machines are crafted to meet the rigorous demands of the industry. With Makewell Industries, you benefit from a complete line of standard hydraulic presses, as well as our ability to custom-design machines to suit your unique requirements. Whether your application is standard or highly customized, we have the expertise and capability to deliver the best hydraulic press machine for your needs.",
+    "description": "The Makewell Industries Stamp of Quality The Plywood – Blockboard Hydraulic Press Machine by Makewell Industries is designed to produce high-quality plywood and block boards used in furniture manufacturing, interior solutions, and more. Known for its precision, durability, and innovative design, our press machines are crafted to meet the rigorous demands of the industry. With Makewell Industries, you benefit from a complete line of standard hydraulic presses, as well as our ability to custom-design machines to suit your unique requirements. Whether your application is standard or highly customized, we have the expertise and capability to deliver the best hydraulic press machine for your needs.",
     "categories": [
       "hydraulic-hot-press-machine"
     ],
-    "cardImage": "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/plywood\u2013block-board\u2013flush-door/plywood\u2013block-board\u2013flush-door-hot-press-3.webp",
+    "cardImage": "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/plywood–block-board–flush-door/plywood–block-board–flush-door-hot-press-3.webp",
     "images": [
-      "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/plywood\u2013block-board\u2013flush-door/plywood\u2013block-board\u2013flush-door-hot-press-1.webp",
-      "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/plywood\u2013block-board\u2013flush-door/plywood\u2013block-board\u2013flush-door-hot-press-3.webp",
-      "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/plywood\u2013block-board\u2013flush-door/plywood\u2013block-board\u2013flush-door-hot-press-5.webp"
+      "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/plywood–block-board–flush-door/plywood–block-board–flush-door-hot-press-1.webp",
+      "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/plywood–block-board–flush-door/plywood–block-board–flush-door-hot-press-3.webp",
+      "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/plywood–block-board–flush-door/plywood–block-board–flush-door-hot-press-5.webp"
     ],
-    "specs": [
-      {
-        "label": "Product (MM)",
-        "value": "Capacity (Tons)"
-      },
-      {
-        "label": "2440 x 1220",
-        "value": "640"
-      },
-      {
-        "label": "2440 x 1220",
-        "value": "800"
-      },
-      {
-        "label": "2440 x 1220",
-        "value": "1000"
-      }
-    ]
+    "specs": [],
+    "features": [
+      "Welded Body Construction for strength and durability.",
+      "Multi Daylight Openings to accommodate various board sizes.",
+      "Uniform Heat and Pressure Distribution ensures consistent and reliable results.",
+      "Higher Heat Retaining Capacity for efficient energy use and uniform processing.",
+      "International Standards in hydraulic and electrical components, ensuring superior performance.",
+      "Body Machining for Accuracy that guarantees precision and quality."
+    ],
+    "specTable": {
+      "headers": [
+        "Product (MM)",
+        "Capacity (Tons)",
+        "Platen (MM)",
+        "Specific Pressure"
+      ],
+      "rows": [
+        [
+          "2440 x 1220",
+          "640",
+          "2590 x 1350 x 45",
+          "20 KG/CM 2"
+        ],
+        [
+          "2440 x 1220",
+          "800",
+          "2590 x 1350 x 45",
+          "25 KG/CM 2"
+        ],
+        [
+          "2440 x 1220",
+          "1000",
+          "2590 x 1350 x 45",
+          "30 KG/CM 2"
+        ]
+      ]
+    }
   },
   {
     "slug": "pre-press-hydraulic-press",
@@ -556,26 +717,41 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/hydraulic-press/hydraulic-press-4.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/hydraulic-press/hydraulic-press.webp"
     ],
-    "specs": [
-      {
-        "label": "Product (MM)",
-        "value": "Capacity (Tons)"
-      },
-      {
-        "label": "2440 x 1220",
-        "value": "640"
-      },
-      {
-        "label": "2440 x 1220",
-        "value": "1000"
-      }
-    ]
+    "specs": [],
+    "features": [
+      "Window Frame Construction for enhanced durability and stability.",
+      "Uniform Pressure Distribution ensures even compression and high-quality output.",
+      "Hydraulic and Electrical Components of International Standards for top-tier performance and reliability.",
+      "Push Button / PLC-Based Controls for easy and efficient operation, with automation for added convenience."
+    ],
+    "specTable": {
+      "headers": [
+        "Product (MM)",
+        "Capacity (Tons)",
+        "Platen (MM)",
+        "Specific Pressure"
+      ],
+      "rows": [
+        [
+          "2440 x 1220",
+          "640",
+          "2590 x 1350",
+          "20 KG/CM2"
+        ],
+        [
+          "2440 x 1220",
+          "1000",
+          "2590 x 1350",
+          "30 KG/CM²"
+        ]
+      ]
+    }
   },
   {
     "slug": "rubber-press",
     "name": "Rubber Press",
     "shortName": "Rubber Press",
-    "description": "Our Hydraulic Hot Press Machines are engineered to provide superior performance in the production of various rubber-based products. These machines are specifically designed to cater to industries that require high-quality, durable, and cost-efficient rubber components. Whether it\u2019s for rubber conveyor belts, precured tread rubber for tyres, or cow mats, our presses offer precise control, uniform heat distribution, and consistent pressure, ensuring optimal results every time.",
+    "description": "Our Hydraulic Hot Press Machines are engineered to provide superior performance in the production of various rubber-based products. These machines are specifically designed to cater to industries that require high-quality, durable, and cost-efficient rubber components. Whether it’s for rubber conveyor belts, precured tread rubber for tyres, or cow mats, our presses offer precise control, uniform heat distribution, and consistent pressure, ensuring optimal results every time.",
     "categories": [
       "hydraulic-hot-press-machine"
     ],
@@ -584,7 +760,13 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/rubber-press/rubber-press-1.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/rubber-press/rubber-press.webp"
     ],
-    "specs": []
+    "specs": [],
+    "features": [
+      "Hydraulic hot press for rubber conveyor belts",
+      "Precured tread rubber production for tyres",
+      "Cow mat and rubber moulding applications",
+      "Uniform heat and pressure for durable rubber products"
+    ]
   },
   {
     "slug": "shuttering-plywood-hot-press-machine",
@@ -600,19 +782,36 @@
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/shuttering-plywood-hot-press/shuttering-plywood-hot-press-2.webp",
       "https://makewellindustries.co.in/assets/images/inner-pages/products/detail-product/hydraulic-hot-press-machine/shuttering-plywood-hot-press/shuttering-plywood-hot-press.webp"
     ],
-    "specs": [
-      {
-        "label": "Product (MM)",
-        "value": "Capacity (Tons)"
-      },
-      {
-        "label": "8' x 4'",
-        "value": "1250"
-      },
-      {
-        "label": "8' x 4'",
-        "value": "1600"
-      }
-    ]
+    "specs": [],
+    "features": [
+      "Window Frame / Welded Body Construction for enhanced durability and stability.",
+      "Multi Daylight Openings that accommodate various sheet sizes for versatile production.",
+      "Uniform Heat and Pressure Distribution ensures consistent, high-quality results.",
+      "Higher Heat Retaining Capacity maximizes energy efficiency and maintains consistent temperature.",
+      "Hydraulic and Electrical Components of International Standards, guaranteeing top-tier performance and reliability.",
+      "Precision Body Machining for guaranteed accuracy and product quality."
+    ],
+    "specTable": {
+      "headers": [
+        "Product (MM)",
+        "Capacity (Tons)",
+        "Platen (MM)",
+        "Specific Pressure"
+      ],
+      "rows": [
+        [
+          "8' x 4'",
+          "1250",
+          "2600 x 1450",
+          "40 KG/CM 2"
+        ],
+        [
+          "8' x 4'",
+          "1600",
+          "2600 x 1450",
+          "50 KG/CM 2"
+        ]
+      ]
+    }
   }
 ]

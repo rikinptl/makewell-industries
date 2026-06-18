@@ -2,6 +2,11 @@ import productsData from "./products-data.json";
 
 export type ProductSpec = { label: string; value: string };
 
+export type ProductSpecTable = {
+  headers: string[];
+  rows: string[][];
+};
+
 export type Product = {
   slug: string;
   name: string;
@@ -10,7 +15,9 @@ export type Product = {
   categories: string[];
   cardImage: string;
   images: string[];
+  features?: string[];
   specs: ProductSpec[];
+  specTable?: ProductSpecTable;
 };
 
 export const products = productsData as Product[];
