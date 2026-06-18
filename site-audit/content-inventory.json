@@ -1,0 +1,134 @@
+{
+  "company": {
+    "name": "Makewell Industries",
+    "legalName": "Makewell Industries Private Limited",
+    "founded": 1993,
+    "location": "Ahmedabad, Gujarat, India",
+    "address": "Plot No 6 Survey No 1189, Kubadthal Kuha Road, Opp Gajanan Irrigation, Ahmedabad-382433, Gujarat, India",
+    "tagline": "Advanced Pressing for Modern Manufacturing",
+    "email": "sales@makewellindustries.co.in",
+    "emailSecondary": "darshilhirani7734@gmail.com",
+    "phone": "+91 99745 86889",
+    "whatsapp": "+91 86902 21173",
+    "phones": ["+91 99745 86889", "+91 86902 21173", "+91 98252 36038", "+91 96242 54445"]
+  },
+  "navigation": {
+    "main": ["Home", "About us", "Product", "Application", "Gallery", "Contact", "Get Quote"],
+    "categories": [
+      {
+        "name": "Hydraulic Hot Press Machine",
+        "slug": "hydraulic-hot-press-machine",
+        "products": [
+          "Plywood Block Board Flush Door Hot Press Machine",
+          "Shuttering Plywood Hot Press Machine",
+          "Hydraulic Press For HPL",
+          "Pre-Press / Pre-Lam",
+          "Electric Boiler Hot Press",
+          "Core Dry Press",
+          "Cold Press",
+          "Metal Door Press Machine",
+          "Fiberglass Hot Press",
+          "Hydraulic Press for Waste Recycling Plastic Sheet",
+          "Hydraulic Press for Rubber Press"
+        ]
+      },
+      {
+        "name": "Wood Working Machine",
+        "slug": "wood-working-machine",
+        "products": [
+          "Electric Boiler Hot Press",
+          "Cold Press",
+          "CNC Router Machine",
+          "Panel Saw",
+          "Beam Saw Machine",
+          "Multiboring Machine"
+        ]
+      }
+    ],
+    "orphanProducts": ["Edge Bander", "Auto Edge Banding Machine"]
+  },
+  "homepage": {
+    "sections": [
+      "hero_slider",
+      "about_intro",
+      "stats_counters",
+      "product_showcase",
+      "why_choose_us",
+      "feature_cards",
+      "industries_served",
+      "testimonials",
+      "indiawood_2026_promo"
+    ],
+    "stats": ["Years of Experience", "Happy Customers", "Project Installation", "Expert Workers"],
+    "industries": ["Laminate", "Paper", "Plywood", "Rubber", "Wooden Pencils"]
+  },
+  "brand": {
+    "vision": "To become a leading force in engineering and project management, delivering exceptional results that exceed client expectations.",
+    "mission": "To see a Makewell machine powering every woodworking factory—in every city, every state, across our nation.",
+    "coreValues": ["Ethics", "Transparency", "Responsibility"],
+    "features": ["Experience", "Professional", "Safety", "Sustainability", "Integrity", "Reliable"]
+  },
+  "testimonials": [
+    {
+      "name": "Girish Patel",
+      "quote": "Makewell Industries delivers top-notch ply products — superior quality, excellent finish, and trusted performance every time."
+    },
+    {
+      "name": "Minesh Trivedi",
+      "quote": "Makewell Industries offers consistently good products with reliable quality and excellent value for money."
+    },
+    {
+      "name": "Yashasvi Dhule",
+      "quote": "Impressed by the prompt and professional client support — Makewell Industries truly values their customers."
+    }
+  ],
+  "pages": [
+    {"slug": "index", "url": "/index.php", "type": "home"},
+    {"slug": "about-us", "url": "/about-us.php", "type": "about"},
+    {"slug": "product", "url": "/product.php", "type": "listing"},
+    {"slug": "application", "url": "/application.php", "type": "applications"},
+    {"slug": "gallery", "url": "/gallery.php", "type": "gallery"},
+    {"slug": "catalogues", "url": "/catalogues.php", "type": "catalogue"},
+    {"slug": "contact-us", "url": "/contact-us.php", "type": "contact"},
+    {"slug": "hydraulic-hot-press-machine", "url": "/hydraulic-hot-press-machine.php", "type": "category"},
+    {"slug": "wood-working-machine", "url": "/wood-working-machine.php", "type": "category"},
+    {"slug": "plywood-block-board-flush-door-hot-press-machine", "url": "/plywood-block-board-flush-door-hot-press-machine.php", "type": "product"},
+    {"slug": "shuttering-plywood-hot-press-machine", "url": "/shuttering-plywood-hot-press-machine.php", "type": "product"},
+    {"slug": "hydraulic-press-for-hpl", "url": "/hydraulic-press-for-hpl.php", "type": "product"},
+    {"slug": "pre-press-hydraulic-press", "url": "/pre-press-hydraulic-press.php", "type": "product"},
+    {"slug": "electric-boiler-hot-press", "url": "/electric-boiler-hot-press.php", "type": "product"},
+    {"slug": "core-dry-press-machine", "url": "/core-dry-press-machine.php", "type": "product"},
+    {"slug": "cold-press-machine", "url": "/cold-press-machine.php", "type": "product"},
+    {"slug": "metal-door-press-machine", "url": "/metal-door-press-machine.php", "type": "product"},
+    {"slug": "fiberglass-hot-press", "url": "/fiberglass-hot-press.php", "type": "product"},
+    {"slug": "hydraulic-press-for-waste-recycling-plastic-sheet", "url": "/hydraulic-press-for-waste-recycling-plastic-sheet.php", "type": "product"},
+    {"slug": "rubber-press", "url": "/rubber-press.php", "type": "product"},
+    {"slug": "cnc-router-machine", "url": "/cnc-router-machine.php", "type": "product"},
+    {"slug": "panel-saw", "url": "/panel-saw.php", "type": "product"},
+    {"slug": "beam-saw-machine", "url": "/beam-saw-machine.php", "type": "product"},
+    {"slug": "multiboring-machine", "url": "/multiboring-machine.php", "type": "product"},
+    {"slug": "edge-bander", "url": "/edge-bander.php", "type": "product", "orphan": true},
+    {"slug": "auto-edge-banding-machine", "url": "/auto-edge-banding-machine.php", "type": "product", "orphan": true}
+  ],
+  "techStack": {
+    "backend": "PHP",
+    "css": ["Bootstrap", "custom main.css", "Poppins font"],
+    "js": ["jQuery", "Swiper", "Slick", "Fancybox", "Odometer"],
+    "analytics": "Google Tag Manager (GTM-WTBGR7SX)"
+  },
+  "issues": {
+    "critical": [
+      "Same title and meta on all pages",
+      "No sitemap.xml or robots.txt",
+      "Template leftover email (infofinland@gmail.com)",
+      "Invalid HTML structure",
+      "Social links are placeholders"
+    ],
+    "ux": [
+      "Intrusive popup on page load",
+      "Orphan/hidden product pages",
+      "Duplicate products in nav",
+      "Inconsistent phone formatting"
+    ]
+  }
+}
